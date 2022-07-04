@@ -1,0 +1,41 @@
+{
+  "name": "abdukhaligov/laravel-force-json",
+  "description": "The Force json package for Laravel.",
+  "keywords": [
+    "abdukhaligov",
+    "laravel-force-json",
+    "laravel"
+  ],
+  "homepage": "https://github.com/Abdukhaligov/laravel-force-json",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdukhaligov Hikmat",
+      "email": "hikmat.pou@gmail.com",
+      "homepage": "https://github.com/Abdukhaligov",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2",
+    "laravel/framework": "^9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Abdukhaligov\\LaravelForceJson\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Abdukhaligov\\LaravelForceJson\\ForceJsonServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
